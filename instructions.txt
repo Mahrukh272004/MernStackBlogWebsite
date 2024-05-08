@@ -1,0 +1,22 @@
+ Here's a set of instructions:
+
+Open Visual Studio Code: Open the Visual Studio Code application on your computer.
+
+Split the Terminal:
+Once Visual Studio Code is open, navigate to the menu bar.
+Click on "Terminal" and then select "Split Terminal" to split the terminal into two separate instances.
+Navigate to the MERN folder:
+In one of the terminal panes, navigate to the MERN folder using the cd command. Assuming your MERN folder is located in your home directory, you might type:
+cd path/to/mern
+Replace path/to/mern with the actual path to your MERN folder.
+Start the API Server:
+Inside the terminal pane where you navigated to the MERN folder, navigate to the API folder by typing:
+cd api
+Then, start the API server by running:
+
+npm start
+Start the Client Application:
+In the other terminal pane, navigate to the "client" folder within the MERN folder by typing:
+cd client
+Then, start the client application by running:
+npm start
